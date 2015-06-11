@@ -1,5 +1,9 @@
+/* No files to import found in abstractions/**\/* */
 img, media {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
-/* No files to import found in partials/components/**\/* */
+.l-page {
+  width: 100%;
+  max-width: 960px; }
+
+/*# sourceMappingURL=omega-vfp.no-query.css.map */
