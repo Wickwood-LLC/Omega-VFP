@@ -1,0 +1,42 @@
+@include establish-baseline;
+
+a {
+	color: $link-color;
+	text-decoration: none;
+	word-wrap: break-word;
+
+	&:hover {
+		text-decoration: underline;
+	}
+	&:visited {
+		color: $link-color-visited;
+	}
+}
+
+.site-name a {
+	display: none;
+	color: $site-name-color;
+	text-align: center;
+	text-decoration: none;
+
+	@include adjust-font-size-to(20px);
+
+	&:hover {
+		color: $site-name-color;
+	}
+}
+
+.site-slogan {
+	text-align: center;
+
+	@include adjust-font-size-to(20px);
+}
+
+.node__title {
+	font-size: 24px;
+	text-align: center;
+}
+
+.submitted {
+	@include adjust-font-size-to(11px);
+}

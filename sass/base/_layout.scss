@@ -1,0 +1,15 @@
+.site-logo {
+	display: table;
+	margin: 0 auto;
+}
+
+.l-page {
+	// border: 1px solid black;
+	margin: 0 auto;
+	padding: 12px;
+	position: relative;
+	top: 20px;
+	width: 100%;
+
+	@include border-radius(20px);
+}

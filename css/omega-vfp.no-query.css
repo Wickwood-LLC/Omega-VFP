@@ -1,9 +1,55 @@
 /* No files to import found in abstractions/**\/* */
+.site-logo {
+  display: table;
+  margin: 0 auto; }
+
+.l-page {
+  margin: 0 auto;
+  padding: 12px;
+  position: relative;
+  top: 20px;
+  width: 100%;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px; }
+
 img, media {
   max-width: 100%; }
 
-.l-page {
-  width: 100%;
-  max-width: 960px; }
+html {
+  font-size: 100%;
+  line-height: 1.5em; }
+
+a {
+  color: #205A79;
+  text-decoration: none;
+  word-wrap: break-word; }
+  a:hover {
+    text-decoration: underline; }
+  a:visited {
+    color: #666666; }
+
+.site-name a {
+  display: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25em;
+  line-height: 1.2em; }
+  .site-name a:hover {
+    color: black; }
+
+.site-slogan {
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1.2em; }
+
+.node__title {
+  font-size: 24px;
+  text-align: center; }
+
+.submitted {
+  font-size: 0.6875em;
+  line-height: 2.18182em; }
 
 /*# sourceMappingURL=omega-vfp.no-query.css.map */
