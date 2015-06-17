@@ -13,16 +13,19 @@ a {
 	}
 }
 
-.site-name a {
+.site-name {
 	display: none;
-	color: $site-name-color;
-	text-align: center;
-	text-decoration: none;
 
-	@include adjust-font-size-to(20px);
-
-	&:hover {
+	a {
 		color: $site-name-color;
+		text-align: center;
+		text-decoration: none;
+	
+		@include adjust-font-size-to(20px);
+	
+		&:hover {
+			color: $site-name-color;
+		}
 	}
 }
 
@@ -33,10 +36,21 @@ a {
 }
 
 .node__title {
-	font-size: 24px;
 	text-align: center;
+	@include adjust-font-size-to(24px, 6/4);
 }
 
 .submitted {
 	@include adjust-font-size-to(11px);
+}
+
+.node__links {
+	background-color: #D4D4D4;
+	padding: 0 5px;
+
+	@include adjust-font-size-to(13px);
+}
+
+#block-block-2 p {
+	@include adjust-font-size-to(14px);
 }
