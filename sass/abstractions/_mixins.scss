@@ -1,0 +1,27 @@
+@mixin responsiveEmbedContainer {
+	display: block;
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+@mixin reponsiveEmbedContent {
+	position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@mixin menu-hover {
+    color: #E7F2F9;
+    border: 1px solid #303030;
+    @include background-image(linear-gradient(#7F7F7F 0%, #5F5F5F 100%));
+}
+
+@mixin menu-active {
+    border: 1px solid #1A4861;
+    @include background-image(linear-gradient(#F7F9F9 0%, #CDD5D7 100%));
+}
