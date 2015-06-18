@@ -17,7 +17,7 @@ body {
   box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.15);
   margin: 0 auto 35px;
   max-width: 960px;
-  padding: 12px;
+  padding: 12px 24px;
   position: relative;
   top: 20px;
   width: 100%;
