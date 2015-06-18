@@ -1,11 +1,19 @@
+body {
+	@include background-image(linear-gradient(#d4d4d4 , #f3f3f3 85%, #6e6e6e 85%));
+	background-attachment: fixed;
+}
+
 .site-logo {
 	display: table;
 	margin: 0 auto;
 }
 
 .l-page {
-	// border: 1px solid black;
-	margin: 0 auto;
+	background-color: white;
+	border: 1px solid black;
+	box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.15);
+	margin: 0 auto 35px;
+	max-width: 960px;
 	padding: 12px;
 	position: relative;
 	top: 20px;
