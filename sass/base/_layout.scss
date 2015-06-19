@@ -3,6 +3,13 @@ body {
 	background-attachment: fixed;
 }
 
+#mini-panel-header {
+	@include display(flex);
+	@include flex-flow(row wrap);
+	@include justify-content(space-around);
+	@include align-items(center);
+
+}
 .site-logo {
 	display: table;
 	margin: 0 auto;
