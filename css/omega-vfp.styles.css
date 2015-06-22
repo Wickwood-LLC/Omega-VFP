@@ -91,8 +91,8 @@ a {
 
 .site-slogan {
   text-align: center;
-  font-size: 1.25em;
-  line-height: 1.2em; }
+  font-size: 2.25em;
+  line-height: 1.33333em; }
 
 .node__title {
   text-align: center;
@@ -112,6 +112,13 @@ a {
 .site-mission p {
   font-size: 0.875em;
   line-height: 1.71429em; }
+
+.site-footer p {
+  font-size: 11px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
 
 .sf-main-menu {
   display: table;

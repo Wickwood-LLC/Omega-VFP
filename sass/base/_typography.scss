@@ -30,7 +30,7 @@ a {
 .site-slogan {
 	text-align: center;
 
-	@include adjust-font-size-to(20px);
+	@include adjust-font-size-to(36px);
 }
 
 .node__title {
@@ -51,4 +51,12 @@ a {
 
 .site-mission p {
 	@include adjust-font-size-to(14px);
+}
+
+.site-footer p {
+	font-size: 11px;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
