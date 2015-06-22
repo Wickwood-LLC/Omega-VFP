@@ -5,7 +5,7 @@
 
 	.widgets-element-horizontal {
 		display: inline-block;
-		float: none;
+		float: none !important;
 		margin: 0 4px;
 	}
 }

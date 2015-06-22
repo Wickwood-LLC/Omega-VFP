@@ -184,7 +184,7 @@ a {
   padding: 10px; }
   #block-widgets-s-socialmedia-share-default .widgets-element-horizontal {
     display: inline-block;
-    float: none;
+    float: none !important;
     margin: 0 4px; }
 
 /*# sourceMappingURL=omega-vfp.styles.css.map */
