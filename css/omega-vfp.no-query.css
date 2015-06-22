@@ -178,4 +178,13 @@ a {
       background-image: -webkit-linear-gradient(#7f7f7f 0%, #5f5f5f 100%);
       background-image: linear-gradient(#7f7f7f 0%, #5f5f5f 100%); }
 
+#block-widgets-s-socialmedia-share-default {
+  background-color: #D4D4D4;
+  margin-top: 10px; }
+
+.widgets-element-horizontal {
+  display: inline-block;
+  float: none;
+  margin: 0 4px; }
+
 /*# sourceMappingURL=omega-vfp.no-query.css.map */
