@@ -43,7 +43,7 @@ a {
 }
 
 .node__links {
-	background-color: #D4D4D4;
+	background-color: $accent-color;
 	padding: 0 5px;
 
 	@include adjust-font-size-to(13px);
