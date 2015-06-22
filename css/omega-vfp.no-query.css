@@ -182,7 +182,10 @@ a {
   background-color: #D4D4D4;
   margin-top: 10px;
   padding: 10px; }
-  #block-widgets-s-socialmedia-share-default .widgets-element-horizontal {
+
+#widgets-element-socialmedia_share-default {
+  text-align: center; }
+  #widgets-element-socialmedia_share-default .widgets-element-horizontal {
     display: inline-block;
     float: none !important;
     margin: 0 4px; }
