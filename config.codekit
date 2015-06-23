@@ -419,15 +419,15 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/sass\/components\/_components.scss": {
+	"\/sass\/components\/_breadcrumbs.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/components\/_components.scss",
-		"outputAbbreviatedPath": "\/css\/_components.css",
+		"inputAbbreviatedPath": "\/sass\/components\/_breadcrumbs.scss",
+		"outputAbbreviatedPath": "\/css\/_breadcrumbs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
