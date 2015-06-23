@@ -81,7 +81,9 @@ a {
     color: #666666; }
 
 .site-name {
-  text-align: center; }
+  text-align: center;
+  line-height: 1.5em;
+  margin: 0; }
   .site-name a {
     color: black;
     text-align: center;
@@ -92,6 +94,8 @@ a {
 
 .site-slogan {
   font-size: 36px;
+  line-height: 1.5em;
+  margin: 0;
   text-align: center; }
 
 .node__title {
@@ -110,8 +114,9 @@ a {
   line-height: 1.84615em; }
 
 .site-mission p {
-  font-size: 0.875em;
-  line-height: 1.71429em; }
+  font-size: 14px;
+  line-height: 1.5em;
+  margin: 0; }
 
 .site-footer p {
   font-size: 11px;

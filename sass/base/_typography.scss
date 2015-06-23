@@ -15,6 +15,8 @@ a {
 
 .site-name {
 	text-align: center;
+	line-height: 1.5em;
+	margin: 0;
 
 	a {
 		color: $site-name-color;
@@ -30,6 +32,8 @@ a {
 
 .site-slogan {
 	font-size: 36px;
+	line-height: 1.5em;
+	margin: 0;
 	text-align: center;
 }
 
@@ -50,7 +54,9 @@ a {
 }
 
 .site-mission p {
-	@include adjust-font-size-to(14px);
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 0;
 }
 
 .site-footer p {
