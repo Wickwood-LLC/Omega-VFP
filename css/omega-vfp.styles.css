@@ -80,19 +80,19 @@ a {
   a:visited {
     color: #666666; }
 
-.site-name a {
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.25em;
-  line-height: 1.2em; }
-  .site-name a:hover {
-    color: black; }
+.site-name {
+  text-align: center; }
+  .site-name a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 42px; }
+    .site-name a:hover {
+      color: black; }
 
 .site-slogan {
-  text-align: center;
-  font-size: 2.25em;
-  line-height: 1.33333em; }
+  font-size: 36px;
+  text-align: center; }
 
 .node__title {
   text-align: center;

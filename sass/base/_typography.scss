@@ -14,12 +14,13 @@ a {
 }
 
 .site-name {
+	text-align: center;
+
 	a {
 		color: $site-name-color;
 		text-align: center;
 		text-decoration: none;
-	
-		@include adjust-font-size-to(20px);
+		font-size: 42px;
 	
 		&:hover {
 			color: $site-name-color;
@@ -28,9 +29,8 @@ a {
 }
 
 .site-slogan {
+	font-size: 36px;
 	text-align: center;
-
-	@include adjust-font-size-to(36px);
 }
 
 .node__title {
