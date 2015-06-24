@@ -28,7 +28,7 @@ require 'toolkit'
 require 'breakpoint'
 require 'singularitygs'
 require 'susy'
-# require 'sass-globbing'
+# require 'sass-globbing'	// This project was compiled with Codekit. Unrequiring sass-globbing so it doesn't conflict with Codekit's own sass-globbing.
 
 ##
 ## You probably don't need to edit anything below this.
