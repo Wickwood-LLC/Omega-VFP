@@ -6,7 +6,15 @@ aside .block {
 	@include border-radius(10px);
 
 	.block__title {
+		color: #2D3639;
 		font: bold 13px Tahoma,Arial,Helvetica,Sans-Serif;
 		padding: 0 10px;
+
+		&::before {
+			content: url('../images/BlockHeaderIcon.png');
+			padding-right: 12px;
+			position: relative;
+  			top: 2px;
+		}
 	}
 }

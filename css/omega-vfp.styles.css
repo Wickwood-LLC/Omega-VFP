@@ -132,8 +132,14 @@ aside .block {
   -webkit-border-radius: 10px;
   border-radius: 10px; }
   aside .block .block__title {
+    color: #2D3639;
     font: bold 13px Tahoma,Arial,Helvetica,Sans-Serif;
     padding: 0 10px; }
+    aside .block .block__title::before {
+      content: url("../images/BlockHeaderIcon.png");
+      padding-right: 12px;
+      position: relative;
+      top: 2px; }
 
 .breadcrumb {
   font-size: 12px;

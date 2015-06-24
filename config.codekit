@@ -78,6 +78,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/images\/BlockContentBullets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88,
+		"inputAbbreviatedPath": "\/images\/BlockContentBullets.png",
+		"outputAbbreviatedPath": "\/images\/BlockContentBullets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/BlockHeaderIcon.png": {
 		"fileType": 32768,
 		"ignore": 0,
