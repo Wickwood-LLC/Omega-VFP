@@ -160,6 +160,48 @@ aside .block {
   font-size: 12px;
   margin: 2em 0; }
 
+input[type=submit] {
+  border: 1px solid #E0E5E6;
+  box-shadow: 0px 0px 2px 2px #dddddd;
+  display: block;
+  height: 26px;
+  font-family: Tahoma,Arial,Helvetica,Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  white-space: nowrap;
+  text-align: left;
+  padding: 0 9px;
+  text-decoration: none;
+  color: #EEF1F1;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdlOTM5OSIvPjxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjN2U5Mzk5Ii8+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiM2ZDgwODYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZDgwODYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7e9399), color-stop(60%, #7e9399), color-stop(60%, #6d8086), color-stop(100%, #6d8086));
+  background-image: -moz-linear-gradient(#7e9399 0%, #7e9399 60%, #6d8086 60%, #6d8086 100%);
+  background-image: -webkit-linear-gradient(#7e9399 0%, #7e9399 60%, #6d8086 60%, #6d8086 100%);
+  background-image: linear-gradient(#7e9399 0%, #7e9399 60%, #6d8086 60%, #6d8086 100%);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+  input[type=submit]:hover {
+    border-color: #303030;
+    color: #BDBDBD;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZlNmU2ZSIvPjxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjNmU2ZTZlIi8+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiM1NjU2NTYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1NjU2NTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6e6e6e), color-stop(60%, #6e6e6e), color-stop(60%, #565656), color-stop(100%, #565656));
+    background-image: -moz-linear-gradient(#6e6e6e 0%, #6e6e6e 60%, #565656 60%, #565656 100%);
+    background-image: -webkit-linear-gradient(#6e6e6e 0%, #6e6e6e 60%, #565656 60%, #565656 100%);
+    background-image: linear-gradient(#6e6e6e 0%, #6e6e6e 60%, #565656 60%, #565656 100%); }
+  input[type=submit]:active {
+    border-color: #328DBD;
+    color: #E7F2F9;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkNGQ0ZCIvPjxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjNGQ0ZDRkIi8+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiMzNDM0MzQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNDM0MzQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(60%, #4d4d4d), color-stop(60%, #343434), color-stop(100%, #343434));
+    background-image: -moz-linear-gradient(#4d4d4d 0%, #4d4d4d 60%, #343434 60%, #343434 100%);
+    background-image: -webkit-linear-gradient(#4d4d4d 0%, #4d4d4d 60%, #343434 60%, #343434 100%);
+    background-image: linear-gradient(#4d4d4d 0%, #4d4d4d 60%, #343434 60%, #343434 100%); }
+
 .sf-main-menu {
   display: table;
   margin: 0 auto;

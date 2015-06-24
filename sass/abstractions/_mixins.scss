@@ -25,3 +25,33 @@
     border: 1px solid #1A4861;
     @include background-image(linear-gradient(#F7F9F9 0%, #CDD5D7 100%));
 }
+
+@mixin button {
+    border: 1px solid #E0E5E6;
+    box-shadow: 0px 0px 2px 2px rgba(221,221,221,1);
+    display: block;
+    height: 26px;
+    font-family: Tahoma,Arial,Helvetica,Sans-Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    padding: 0 9px;
+    text-decoration: none;
+    color: #EEF1F1;
+    @include background-image(linear-gradient(rgba(126,147,153,1) 0%,rgba(126,147,153,1) 60%,rgba(109,128,134,1) 60%,rgba(109,128,134,1) 100%));
+    @include border-radius(5px);
+}
+
+@mixin button-hover {
+    border-color: #303030;
+    color: #BDBDBD;
+    @include background-image(linear-gradient(#6E6E6E 0%, #6E6E6E 60%, #565656 60%, #565656 100%));
+}
+
+@mixin button-active {
+    border-color: #328DBD;
+    color: #E7F2F9;
+    @include background-image(linear-gradient(#4D4D4D 0%, #4D4D4D 60%, #343434 60%, #343434 100%));
+}

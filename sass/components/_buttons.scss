@@ -1,0 +1,11 @@
+input[type=submit] {
+	@include button;
+
+	&:hover {
+		@include button-hover;
+	}
+
+	&:active {
+		@include button-active;
+	}
+}
