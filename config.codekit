@@ -78,6 +78,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/images\/BlockHeaderIcon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 621,
+		"inputAbbreviatedPath": "\/images\/BlockHeaderIcon.png",
+		"outputAbbreviatedPath": "\/images\/BlockHeaderIcon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/js\/omega-vfp.behaviors.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -447,6 +458,22 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/sass\/components\/_blocks.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/components\/_blocks.scss",
+		"outputAbbreviatedPath": "\/css\/_blocks.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/sass\/components\/_breadcrumbs.scss": {
 		"createSourceMap": 1,
