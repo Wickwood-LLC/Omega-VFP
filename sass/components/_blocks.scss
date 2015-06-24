@@ -17,4 +17,9 @@ aside .block {
   			top: 2px;
 		}
 	}
+
+	.menu .leaf {
+		list-style-image: url('../images/BlockContentBullets.png');
+  		list-style-type: square;
+	}
 }
