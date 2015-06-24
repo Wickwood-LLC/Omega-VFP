@@ -33,6 +33,10 @@ aside .block {
 	  			color: #205A79;
 				font-family: Tahoma,Arial,Helvetica,Sans-Serif;
 				text-decoration: underline;
+
+				&:hover {
+					text-decoration: none;
+				}
 	
 				&:visited {
 					color: #1A1A1A;

@@ -153,6 +153,8 @@ aside .block {
         color: #205A79;
         font-family: Tahoma,Arial,Helvetica,Sans-Serif;
         text-decoration: underline; }
+        aside .block .menu .leaf a:hover {
+          text-decoration: none; }
         aside .block .menu .leaf a:visited {
           color: #1A1A1A; }
 
