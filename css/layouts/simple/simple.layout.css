@@ -41,12 +41,12 @@
   .l-branding {
     width: 100%;
     float: left;
-    margin-right: 1.69492%; }
+    margin-right: 2.85714%; }
 
   .l-region--header {
     width: 100%;
     float: left;
-    margin-right: 1.69492%; }
+    margin-right: 2.85714%; }
 
   .l-region--navigation {
     clear: both; }
@@ -54,16 +54,16 @@
   .has-sidebar-first .l-content,
   .has-sidebar-second .l-content,
   .has-two-sidebars .l-content {
-    width: 66.10169%;
+    width: 65.71429%;
     float: left;
-    margin-right: 1.69492%; }
+    margin-right: 2.85714%; }
   .has-sidebar-first .l-region--sidebar-first,
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-first,
   .has-sidebar-second .l-region--sidebar-second,
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
-    width: 32.20339%;
+    width: 31.42857%;
     float: right;
     margin-right: 0; }
   .has-sidebar-first .l-region--sidebar-second,
@@ -80,44 +80,44 @@
   .l-branding {
     width: 100%;
     float: left;
-    margin-right: 1.26582%; }
+    margin-right: 2.12766%; }
 
   .l-region--header {
     width: 100%;
     float: left;
-    margin-right: 1.26582%; }
+    margin-right: 2.12766%; }
 
   .has-sidebar-first .l-content {
-    width: 74.68354%;
+    width: 74.46809%;
     float: right;
     margin-right: 0; }
   .has-sidebar-first .l-region--sidebar-first {
-    width: 24.05063%;
+    width: 23.40426%;
     float: left;
-    margin-right: 1.26582%; }
+    margin-right: 2.12766%; }
 
   .has-sidebar-second .l-content {
-    width: 74.68354%;
+    width: 74.46809%;
     float: left;
-    margin-right: 1.26582%; }
+    margin-right: 2.12766%; }
   .has-sidebar-second .l-region--sidebar-second {
-    width: 24.05063%;
+    width: 23.40426%;
     float: right;
     margin-right: 0;
     clear: none; }
 
   .has-two-sidebars .l-content {
-    width: 49.36709%;
+    width: 48.93617%;
     float: left;
-    margin-right: 1.26582%;
-    margin-left: 25.31646%; }
+    margin-right: 2.12766%;
+    margin-left: 25.53191%; }
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
-    width: 24.05063%;
+    width: 23.40426%;
     float: left;
-    margin-right: 1.26582%; }
+    margin-right: 2.12766%; }
   .has-two-sidebars .l-region--sidebar-first {
-    margin-left: -75.94937%; }
+    margin-left: -76.59574%; }
   .has-two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;
