@@ -149,6 +149,8 @@ aside .block {
       padding-right: 12px;
       position: relative;
       top: 2px; }
+  aside .block .block__content {
+    padding-left: 12px; }
   aside .block ul {
     padding-left: 12px;
     margin: 10px; }
@@ -162,6 +164,8 @@ aside .block {
           text-decoration: none; }
         aside .block ul li a:visited {
           color: #1A1A1A; }
+  aside .block table {
+    width: 100%; }
 
 .breadcrumb {
   font-size: 16px; }

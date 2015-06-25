@@ -21,6 +21,10 @@ aside .block {
 		}
 	}
 
+	.block__content {
+		padding-left: 12px;
+	}
+
 	ul {
 		padding-left: 12px;
 		margin: 10px;
@@ -42,5 +46,9 @@ aside .block {
 				}
 	  		}
 		}
+	}
+
+	table {
+		width: 100%;
 	}
 }
