@@ -127,7 +127,7 @@ aside .block {
   background: #E0E5E6;
   border: 1px solid #B8C3C6;
   box-shadow: 0px 0px 3px 2px #b8c3c6;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.2em;
   margin-bottom: 10px;
   padding: 5px;
@@ -136,7 +136,7 @@ aside .block {
   border-radius: 10px; }
   aside .block .block__title {
     color: #2D3639;
-    font: bold 13px Tahoma,Arial,Helvetica,Sans-Serif;
+    font: bold 16px Tahoma,Arial,Helvetica,Sans-Serif;
     padding: 0 10px; }
     aside .block .block__title::before {
       content: url("../images/BlockHeaderIcon.png");
@@ -159,8 +159,7 @@ aside .block {
           color: #1A1A1A; }
 
 .breadcrumb {
-  font-size: 12px;
-  margin: 2em 0; }
+  font-size: 16px; }
 
 input[type=submit] {
   border: 1px solid #E0E5E6;
