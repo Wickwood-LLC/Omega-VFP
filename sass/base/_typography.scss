@@ -35,12 +35,19 @@ a {
 	text-align: center;
 }
 
+.page-title {
+	text-align: center;
+}
+
 .node__title {
+	margin: 1em 0 0;
 	text-align: center;
 	@include adjust-font-size-to(24px, 6/4);
 }
 
 .submitted {
+	margin: 0 0 1em 0;
+	text-align: center;
 	@include adjust-font-size-to(11px);
 }
 
