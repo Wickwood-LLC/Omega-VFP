@@ -1,3 +1,20 @@
+img, media {
+  max-width: 100%; }
+
+.embed-container {
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden; }
+  .embed-container .embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 body {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q0ZDRkNCIvPjxzdG9wIG9mZnNldD0iODUlIiBzdG9wLWNvbG9yPSIjZjNmM2YzIi8+PHN0b3Agb2Zmc2V0PSI4NSUiIHN0b3AtY29sb3I9IiM2ZTZlNmUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background-size: 100%;
@@ -50,23 +67,6 @@ body {
   -webkit-border-bottom-right-radius: 10px;
   border-bottom-right-radius: 10px; }
 
-img, media {
-  max-width: 100%; }
-
-.embed-container {
-  display: block;
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 35px;
-  height: 0;
-  overflow: hidden; }
-  .embed-container .embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-
 html {
   font-size: 100%;
   line-height: 1.5em; }
@@ -96,12 +96,18 @@ a {
   margin: 0;
   text-align: center; }
 
+.page-title {
+  text-align: center; }
+
 .node__title {
+  margin: 1em 0 0;
   text-align: center;
   font-size: 1.5em;
   line-height: 1.5em; }
 
 .submitted {
+  margin: 0 0 1em 0;
+  text-align: center;
   font-size: 0.6875em;
   line-height: 2.18182em; }
 
@@ -143,19 +149,19 @@ aside .block {
       padding-right: 12px;
       position: relative;
       top: 2px; }
-  aside .block .menu {
+  aside .block ul {
     padding-left: 20px;
     margin: 10px; }
-    aside .block .menu .leaf {
+    aside .block ul li {
       list-style-image: url("../images/BlockContentBullets.png");
       list-style-type: square; }
-      aside .block .menu .leaf a {
+      aside .block ul li a {
         color: #205A79;
         font-family: Tahoma,Arial,Helvetica,Sans-Serif;
         text-decoration: underline; }
-        aside .block .menu .leaf a:hover {
+        aside .block ul li a:hover {
           text-decoration: none; }
-        aside .block .menu .leaf a:visited {
+        aside .block ul li a:visited {
           color: #1A1A1A; }
 
 .breadcrumb {
