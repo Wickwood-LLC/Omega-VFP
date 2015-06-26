@@ -61,11 +61,11 @@ $desk: 70em 16; // At 70em use 16 columns.
   .has-sidebar-second,
   .has-two-sidebars {
     .l-content {
-      @include span-columns(8, 12); // Span 8 out of 12 columns.
+      @include span-columns(9, 12); // Span 9 out of 12 columns.
     }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
-      @include span-columns(4 omega, 12); // Span the last (omega) 4 columns of 12.
+      @include span-columns(3 omega, 12); // Span the last (omega) 3 columns of 12.
     }
     .l-region--sidebar-second {
       clear: right;

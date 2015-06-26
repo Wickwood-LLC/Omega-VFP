@@ -54,7 +54,7 @@
   .has-sidebar-first .l-content,
   .has-sidebar-second .l-content,
   .has-two-sidebars .l-content {
-    width: 65.71429%;
+    width: 74.28571%;
     float: left;
     margin-right: 2.85714%; }
   .has-sidebar-first .l-region--sidebar-first,
@@ -63,7 +63,7 @@
   .has-sidebar-second .l-region--sidebar-second,
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
-    width: 31.42857%;
+    width: 22.85714%;
     float: right;
     margin-right: 0; }
   .has-sidebar-first .l-region--sidebar-second,
