@@ -2,6 +2,13 @@ img, media {
   max-width: 100%;
 }
 
+img[data-picture-align="left"] {
+	margin-right: 1em;
+}
+img[data-picture-align="left"] {
+	margin-left: 1em;
+}
+
 .embed-container {
 	@include responsiveEmbedContainer();
 
