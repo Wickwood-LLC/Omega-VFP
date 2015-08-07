@@ -49,7 +49,7 @@ body {
 	.l-main {
 		margin-bottom: 0;
 	}
-	
+
 	.book-navigation__links a {
 		color: black;
 		font-weight: bold;
@@ -60,4 +60,9 @@ body {
 	    display: flex;
 	    justify-content: center;
 	}
+}
+
+.read-more-link {
+	clear: both;
+	text-align: right;
 }
