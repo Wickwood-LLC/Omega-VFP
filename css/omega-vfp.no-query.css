@@ -1,5 +1,6 @@
 .views-row {
-  display: table; }
+  display: table;
+  width: 100%; }
 
 img, media {
   max-width: 100%; }
@@ -93,7 +94,8 @@ body {
   justify-content: center; }
 
 .read-more-link {
-  clear: both; }
+  clear: both;
+  text-align: right; }
 
 html {
   font-size: 100%;
