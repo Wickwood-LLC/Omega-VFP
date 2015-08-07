@@ -77,10 +77,10 @@ body {
   -webkit-border-bottom-right-radius: 10px;
   border-bottom-right-radius: 10px; }
 
-.book-navigation-54 ul.menu {
+#book-navigation-54 ul.menu {
   display: table;
   margin: 1em auto; }
-  .book-navigation-54 ul.menu li {
+  #book-navigation-54 ul.menu li {
     list-style: none; }
 
 .node-type-book .l-main {
@@ -88,7 +88,7 @@ body {
 .node-type-book .book-navigation__links a {
   color: black;
   font-weight: bold; }
-.node-type-book .ul.links.links--inline.node__links {
+.node-type-book ul.links.links--inline.node__links {
   clear: both;
   display: flex;
   justify-content: center; }

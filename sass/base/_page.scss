@@ -36,7 +36,7 @@ body {
 	@include border-bottom-right-radius(10px);
 }
 
-.book-navigation-54 ul.menu {
+#book-navigation-54 ul.menu {
 	display: table;
     margin: 1em auto;
 
@@ -55,7 +55,7 @@ body {
 		font-weight: bold;
 	}
 
-	.ul.links.links--inline.node__links {
+	ul.links.links--inline.node__links {
 		clear: both;
 	    display: flex;
 	    justify-content: center;
