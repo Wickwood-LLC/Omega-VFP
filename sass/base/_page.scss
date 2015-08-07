@@ -44,3 +44,20 @@ body {
     	list-style: none;
     }
 }
+
+.node-type-book {
+	.l-main {
+		margin-bottom: 0;
+	}
+	
+	.book-navigation__links a {
+		color: black;
+		font-weight: bold;
+	}
+
+	.ul.links.links--inline.node__links {
+		clear: both;
+	    display: flex;
+	    justify-content: center;
+	}
+}

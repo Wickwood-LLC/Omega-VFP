@@ -73,6 +73,16 @@ body {
   .book-navigation-54 ul.menu li {
     list-style: none; }
 
+.node-type-book .l-main {
+  margin-bottom: 0; }
+.node-type-book .book-navigation__links a {
+  color: black;
+  font-weight: bold; }
+.node-type-book .ul.links.links--inline.node__links {
+  clear: both;
+  display: flex;
+  justify-content: center; }
+
 html {
   font-size: 100%;
   line-height: 1.5em; }
