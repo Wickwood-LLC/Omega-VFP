@@ -1,3 +1,6 @@
+.views-row {
+  display: table; }
+
 img, media {
   max-width: 100%; }
 
