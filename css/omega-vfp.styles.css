@@ -67,6 +67,12 @@ body {
   -webkit-border-bottom-right-radius: 10px;
   border-bottom-right-radius: 10px; }
 
+.book-navigation-54 ul.menu {
+  display: table;
+  margin: 1em auto; }
+  .book-navigation-54 ul.menu li {
+    list-style: none; }
+
 html {
   font-size: 100%;
   line-height: 1.5em; }

@@ -35,3 +35,12 @@ body {
 	@include border-bottom-left-radius(10px);
 	@include border-bottom-right-radius(10px);
 }
+
+.book-navigation-54 ul.menu {
+	display: table;
+    margin: 1em auto;
+
+    li {
+    	list-style: none;
+    }
+}
