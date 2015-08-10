@@ -67,6 +67,9 @@ body {
   -webkit-border-radius: 20px;
   border-radius: 20px; }
 
+.l-main {
+  margin-bottom: 0; }
+
 .site-footer {
   background-color: #D4D4D4;
   padding: 1px;
@@ -84,8 +87,6 @@ body {
   #book-navigation-54 ul.menu li {
     list-style: none; }
 
-.node-type-book .l-main {
-  margin-bottom: 0; }
 .node-type-book .book-navigation__links a {
   color: black;
   font-weight: bold; }
@@ -106,13 +107,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Arial Black", Gadget, sans-serif; }
 
 a {
-  color: #205A79;
+  color: #0074bd;
   text-decoration: none;
   word-wrap: break-word; }
   a:hover {
     text-decoration: underline; }
   a:visited {
-    color: #666666; }
+    color: #0074bd; }
 
 .site-name {
   text-align: center;

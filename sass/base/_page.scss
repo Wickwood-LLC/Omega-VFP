@@ -29,6 +29,10 @@ body {
 	@include border-radius(20px);
 }
 
+.l-main {
+	margin-bottom: 0;
+}
+
 .site-footer {
 	background-color: $accent-color;
 	padding: 1px;
@@ -47,10 +51,6 @@ body {
 }
 
 .node-type-book {
-	.l-main {
-		margin-bottom: 0;
-	}
-
 	.book-navigation__links a {
 		color: black;
 		font-weight: bold;
