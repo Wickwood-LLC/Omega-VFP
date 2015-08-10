@@ -207,9 +207,6 @@ aside .block {
   aside .block table {
     width: 100%; }
 
-#block-widgets-s-socialmedia-share-default {
-  margin-top: 0; }
-
 .breadcrumb {
   font-size: 16px; }
 
@@ -315,7 +312,6 @@ input[type=submit] {
 
 #block-widgets-s-socialmedia-share-default {
   background-color: #D4D4D4;
-  margin-top: 10px;
   padding: 10px; }
 
 #widgets-element-socialmedia_share-default {
