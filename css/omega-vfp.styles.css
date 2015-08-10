@@ -79,7 +79,8 @@ body {
 
 #book-navigation-54 ul.menu {
   display: table;
-  margin: 1em auto; }
+  margin: 1em auto;
+  padding: 0; }
   #book-navigation-54 ul.menu li {
     list-style: none; }
 
