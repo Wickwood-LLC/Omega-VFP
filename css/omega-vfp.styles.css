@@ -206,6 +206,9 @@ aside .block {
   aside .block table {
     width: 100%; }
 
+#block-widgets-s-socialmedia-share-default {
+  margin-top: 0; }
+
 .breadcrumb {
   font-size: 16px; }
 
