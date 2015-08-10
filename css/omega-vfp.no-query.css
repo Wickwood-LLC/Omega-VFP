@@ -68,7 +68,7 @@ body {
   border-radius: 20px; }
 
 .l-main {
-  margin-bottom: 0; }
+  margin-bottom: 0 !important; }
 
 .site-footer {
   background-color: #D4D4D4;
