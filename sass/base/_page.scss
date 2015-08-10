@@ -50,17 +50,15 @@ body {
     }
 }
 
-.node-type-book {
-	.book-navigation__links a {
-		color: black;
-		font-weight: bold;
-	}
+.book-navigation__links a {
+	color: black;
+	font-weight: bold;
+}
 
-	ul.links.links--inline.node__links {
-		clear: both;
-	    display: flex;
-	    justify-content: center;
-	}
+ul.links.links--inline.node__links {
+	clear: both;
+    display: flex;
+    justify-content: center;
 }
 
 .read-more-link {

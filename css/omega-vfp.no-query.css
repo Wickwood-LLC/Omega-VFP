@@ -87,10 +87,11 @@ body {
   #book-navigation-54 ul.menu li {
     list-style: none; }
 
-.node-type-book .book-navigation__links a {
+.book-navigation__links a {
   color: black;
   font-weight: bold; }
-.node-type-book ul.links.links--inline.node__links {
+
+ul.links.links--inline.node__links {
   clear: both;
   display: flex;
   justify-content: center; }
