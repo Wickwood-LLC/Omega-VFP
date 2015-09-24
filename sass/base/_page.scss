@@ -94,4 +94,18 @@ ul.links.links--inline.node__links {
 	    width: 100%;
 	    display: block;
 	}
+
+	.field--type-computed {
+		text-align: center;
+		margin-bottom: 2em;
+
+		h4 {
+			margin: 0;
+	    	display: inline-flex;
+
+	    	&:after {
+	    		content: '\00a0';
+	    	}
+	    }
+	}
 }

@@ -122,6 +122,14 @@ ul.links.links--inline.node__links {
   text-align: center;
   width: 100%;
   display: block; }
+.node-type-press-release .field--type-computed {
+  text-align: center;
+  margin-bottom: 2em; }
+  .node-type-press-release .field--type-computed h4 {
+    margin: 0;
+    display: inline-flex; }
+    .node-type-press-release .field--type-computed h4:after {
+      content: '\00a0'; }
 
 html {
   font-size: 100%;
