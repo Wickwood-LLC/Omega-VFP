@@ -118,6 +118,10 @@ ul.links.links--inline.node__links {
     left: 10px;
     right: 10px;
     border-radius: 100px / 10px; }
+.node-type-press-release .file {
+  text-align: center;
+  width: 100%;
+  display: block; }
 
 html {
   font-size: 100%;
