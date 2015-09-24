@@ -100,7 +100,7 @@ ul.links.links--inline.node__links {
   clear: both;
   text-align: right; }
 
-.node-type-press-release .panel-display {
+.node-type-press-release .panel-display.panel-2col-bricks {
   max-width: 960px;
   background: #FFF;
   margin: 40px auto;
@@ -108,7 +108,7 @@ ul.links.links--inline.node__links {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   padding: 5%;
   box-sizing: border-box; }
-  .node-type-press-release .panel-display:before, .node-type-press-release .panel-display:after {
+  .node-type-press-release .panel-display.panel-2col-bricks:before, .node-type-press-release .panel-display.panel-2col-bricks:after {
     content: "";
     position: absolute;
     z-index: -1;
