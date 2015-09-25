@@ -91,12 +91,18 @@ ul.links.links--inline.node__links {
 
 	.field--name-title {
 		text-align: center;
+		line-height: 1.5;
 	}
 
-	.file {
+	.field-name-field-upload-document {
 		text-align: center;
-	    width: 100%;
-	    display: block;
+		margin: 1em 0;
+    	font-size: .8em;
+
+		.label-inline,
+		.file {
+		    display: inline-block;
+		}
 	}
 
 	.field--type-computed {
