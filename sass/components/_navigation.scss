@@ -13,7 +13,7 @@
 
 		>a {
 			border: 1px solid transparent;
-			padding: 0 12px;
+			padding: 0;
 			@include adjust-font-size-to(15px);
 			@include border-top-left-radius(10px);
 		  	@include border-bottom-right-radius(10px);
