@@ -476,7 +476,7 @@ input[type=submit] {
   margin-right: 0; }
 
 .quotebox {
-  background: #efefef url(../../images/widgetcommonQuotebox.png) 5px 2px no-repeat;
+  background: #efefef url("../../images/widgetcommonQuotebox.png") 5px 2px no-repeat;
   border: 1px solid #0074BC; }
 
 .quotebox .quote {
