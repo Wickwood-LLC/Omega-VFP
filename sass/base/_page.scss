@@ -4,11 +4,10 @@ body {
 }
 
 #mini-panel-header {
-	@include display(flex);
-	@include flex-flow(row wrap);
-	@include justify-content(space-around);
-	@include align-items(center);
-
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
 }
 .site-logo {
 	display: table;
@@ -26,7 +25,7 @@ body {
 	top: 20px;
 	width: 100%;
 
-	@include border-radius(20px);
+	border-radius: 20px;
 }
 
 .l-main {
@@ -36,8 +35,8 @@ body {
 .site-footer {
 	background-color: $accent-color;
 	padding: 1px;
-	@include border-bottom-left-radius(10px);
-	@include border-bottom-right-radius(10px);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 #book-navigation-54 ul.menu {
